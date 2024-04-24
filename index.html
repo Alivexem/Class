@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Rubik:ital,wght@0,300..900;1,300..900&family=Sedan:ital@0;1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Rock Paper Scissors</title>
+</head>
+<body>
+    
+    <main>
+        <section>
+            <h2 class="tech-name">Tech With Obitope Eniola Nathaniel</h2>
+            <h3 class="game-name">Rock Paper Scissors</h3>
+
+        <style>
+           span{
+             font-size: 20px;
+           }
+         </style>
+            
+                <h3 style="text-align: center;" class="score">GAME SCORE <span id="myScore">O</span> : <span id="comScore">O</span></h3>
+          
+           
+
+            <div class="images">
+                <img src="rock.png" alt="rock" height="90" width="95" class="pic">
+                <img src="paper.png" alt="paper" height="90" width="95" class="pic">
+                <img src="scissors.png" alt="scissors" height="90" width="95" class="pic">
+            </div>
+
+            <!-- I'm adding the style below to center computer's game using flex box and arrange items vertically -->
+          <style>
+
+            .computer-view{
+              display: none;
+              justify-content: center;
+              flex-direction: column;
+              align-items: center;
+            }
+          </style>
+            <div class="computer-view">
+                
+                    <h3 class="computer-plays"></h3>
+                
+                <div id="com-img">
+                    <img src="" alt="" id="computer-pick" height="90" width="95">
+                </div>
+                
+                    <h3 class="result"></h3>
+                
+            </div>
+        
+
+        </section>
+    
+    </main>
+   
+
+
+
+
+
+    <script src="app.js"></script>
+</body>
+</html>

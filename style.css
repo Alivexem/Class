@@ -1,0 +1,35 @@
+body {
+    box-sizing: border-box;
+    background: #4b523f;
+    font-family: "Sedan", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.computer-view {
+    display: none;
+}
+
+section img {
+    border: 2px solid #d4ff17b4;
+    border-radius: 5px;
+    
+}
+
+section {
+    color: white;
+    align-items: center;
+}
+
+.images {
+    margin: 0 auto;
+}
+
+.images img {
+    display: inline-block;
+    margin: 0 3px;
+}
+
+#com-img img{
+    margin-right: 10px;
+}
